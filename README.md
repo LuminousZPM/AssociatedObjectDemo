@@ -8,3 +8,15 @@ iOS开发·runtime原理与实践: 关联对象篇(Associated Object)(应用场�
 # 简书对应地址
 
 [iOS开发·runtime原理与实践: 关联对象篇(Associated Object)(应用场景：为分类添加“属性”，为UI控件关联事件Block体)](https://www.jianshu.com/p/916aef6f7ab1)
+
+# 参数
+ /*
+      关联对象 void objc_setAssociatedObject(id object, const void *key, id value, objc_AssociationPolicy policy)
+
+      其中的参数
+
+      id object：被关联的对象
+      const void *key：关联的key，要求唯一
+      id value：关联的对象
+      objc_AssociationPolicy policy：内存管理的策略
+      */
